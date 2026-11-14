@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bt-bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E102B"/>
+      <stop offset="100%" stop-color="#341B4D"/>
+    </linearGradient>
+    <linearGradient id="bt-hero" x1="64" y1="126" x2="736" y2="278" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#F5E1FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bt-bg)"/>
+  <rect x="44" y="32" width="712" height="436" rx="18" fill="#FFFFFF" stroke="#4F2E70" stroke-width="2"/>
+  <rect x="44" y="32" width="712" height="42" rx="18" fill="#FAF5FF"/>
+  <rect x="44" y="56" width="712" height="18" fill="#FAF5FF"/>
+  <circle cx="76" cy="53" r="5" fill="#EF4444" fill-opacity="0.65"/>
+  <circle cx="94" cy="53" r="5" fill="#F59E0B" fill-opacity="0.65"/>
+  <circle cx="112" cy="53" r="5" fill="#10B981" fill-opacity="0.65"/>
+  <rect x="250" y="43" width="300" height="20" rx="10" fill="#EFE4FA"/>
+  <text x="400" y="57" text-anchor="middle" fill="#6B21A8" font-family="Tahoma, sans-serif" font-size="11">demo.etehadwp.com/beauty/</text>
+
+  <!-- Beauty Nav -->
+  <rect x="630" y="90" width="96" height="22" rx="11" fill="#A21CAF"/>
+  <rect x="330" y="95" width="240" height="12" rx="6" fill="#F3E8FF"/>
+  <rect x="74" y="92" width="84" height="18" rx="9" fill="#FCE7F3"/>
+
+  <!-- Perfume & Luxury Banner -->
+  <rect x="64" y="126" width="672" height="152" rx="14" fill="url(#bt-hero)" stroke="#F3D6F7"/>
+  <!-- Perfume Bottle Illustration -->
+  <rect x="134" y="168" width="68" height="84" rx="12" fill="#FBCFE8" stroke="#BE185D" stroke-width="2"/>
+  <rect x="154" y="148" width="28" height="20" rx="4" fill="#D97706"/>
+  <rect x="148" y="188" width="40" height="42" rx="6" fill="#FFFFFF" fill-opacity="0.85"/>
+  <rect x="224" y="186" width="52" height="66" rx="10" fill="#DDD6FE" stroke="#6D28D9" stroke-width="2"/>
+  <rect x="240" y="170" width="20" height="16" rx="3" fill="#4C1D95"/>
+
+  <rect x="506" y="152" width="200" height="22" rx="6" fill="#4A044E"/>
+  <rect x="466" y="186" width="240" height="12" rx="6" fill="#A21CAF" fill-opacity="0.45"/>
+  <rect x="546" y="216" width="160" height="32" rx="16" fill="#BE185D"/>
+
+  <!-- 3 Category Promo Cards + Offer -->
+  <rect x="64" y="294" width="212" height="72" rx="12" fill="#FFF1F2" stroke="#FECDD3"/>
+  <circle cx="104" cy="330" r="20" fill="#FDA4AF"/>
+  <rect x="144" y="318" width="112" height="12" rx="6" fill="#9F1239"/>
+  <rect x="168" y="338" width="88" height="10" rx="5" fill="#F43F5E" fill-opacity="0.4"/>
+
+  <rect x="294" y="294" width="212" height="72" rx="12" fill="#FAF5FF" stroke="#E9D5FF"/>
+  <circle cx="334" cy="330" r="20" fill="#D8B4FE"/>
+  <rect x="374" y="318" width="112" height="12" rx="6" fill="#6B21A8"/>
+  <rect x="398" y="338" width="88" height="10" rx="5" fill="#A855F7" fill-opacity="0.4"/>
+
+  <rect x="524" y="294" width="212" height="72" rx="12" fill="#FFFBEB" stroke="#FDE68A"/>
+  <circle cx="564" cy="330" r="20" fill="#FCD34D"/>
+  <rect x="604" y="318" width="112" height="12" rx="6" fill="#92400E"/>
+  <rect x="628" y="338" width="88" height="10" rx="5" fill="#F59E0B" fill-opacity="0.4"/>
+
+  <!-- Bottom Flash Sale Strip -->
+  <rect x="64" y="380" width="672" height="70" rx="12" fill="#4A044E"/>
+  <rect x="556" y="398" width="156" height="16" rx="8" fill="#F9A8D4"/>
+  <rect x="596" y="422" width="116" height="12" rx="6" fill="#FBCFE8" fill-opacity="0.5"/>
+  <rect x="94" y="396" width="44" height="38" rx="8" fill="white" fill-opacity="0.14"/>
+  <rect x="148" y="396" width="44" height="38" rx="8" fill="white" fill-opacity="0.14"/>
+  <rect x="202" y="396" width="44" height="38" rx="8" fill="white" fill-opacity="0.14"/>
+</svg>

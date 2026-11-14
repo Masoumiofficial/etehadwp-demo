@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="dg-bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1426"/>
+      <stop offset="100%" stop-color="#1B2240"/>
+    </linearGradient>
+    <linearGradient id="dg-hero" x1="60" y1="90" x2="540" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5535CF"/>
+      <stop offset="100%" stop-color="#301C82"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#dg-bg)"/>
+  <!-- Browser Window -->
+  <rect x="44" y="32" width="712" height="436" rx="18" fill="#FFFFFF" stroke="#2D3558" stroke-width="2"/>
+  <!-- Top Bar -->
+  <rect x="44" y="32" width="712" height="42" rx="18" fill="#F4F6FB"/>
+  <rect x="44" y="56" width="712" height="18" fill="#F4F6FB"/>
+  <circle cx="76" cy="53" r="5" fill="#EF4444" fill-opacity="0.7"/>
+  <circle cx="94" cy="53" r="5" fill="#F59E0B" fill-opacity="0.7"/>
+  <circle cx="112" cy="53" r="5" fill="#10B981" fill-opacity="0.7"/>
+  <rect x="250" y="43" width="300" height="20" rx="10" fill="#E6EAF4"/>
+  <text x="400" y="57" text-anchor="middle" fill="#64748B" font-family="Tahoma, sans-serif" font-size="11">demo.etehadwp.com/digital/</text>
+
+  <!-- Store Header -->
+  <rect x="64" y="86" width="672" height="34" rx="8" fill="#FFFFFF"/>
+  <rect x="626" y="92" width="96" height="22" rx="6" fill="#EF394E"/>
+  <rect x="330" y="92" width="270" height="22" rx="6" fill="#F1F5F9"/>
+  <rect x="76" y="93" width="78" height="20" rx="6" fill="#F1F5F9"/>
+  <rect x="164" y="93" width="52" height="20" rx="6" fill="#EDE9FE"/>
+
+  <!-- Hero Slider + Side Promo -->
+  <rect x="234" y="132" width="502" height="148" rx="14" fill="url(#dg-hero)"/>
+  <circle cx="315" cy="206" r="52" fill="white" fill-opacity="0.08"/>
+  <rect x="268" y="164" width="84" height="84" rx="18" fill="#0B0F1E" stroke="#A78BFA" stroke-width="2"/>
+  <rect x="284" y="178" width="52" height="56" rx="10" fill="#1E293B"/>
+  <circle cx="310" cy="206" r="14" stroke="#60A5FA" stroke-width="3"/>
+  <rect x="480" y="162" width="224" height="22" rx="6" fill="white" fill-opacity="0.92"/>
+  <rect x="530" y="196" width="174" height="12" rx="6" fill="white" fill-opacity="0.5"/>
+  <rect x="584" y="226" width="120" height="30" rx="8" fill="#EF394E"/>
+
+  <!-- Side Promo Card -->
+  <rect x="64" y="132" width="156" height="148" rx="14" fill="#FFF1F2" stroke="#FECDD3"/>
+  <rect x="102" y="148" width="80" height="14" rx="7" fill="#EF394E"/>
+  <rect x="92" y="172" width="100" height="68" rx="10" fill="#FFFFFF"/>
+  <rect x="122" y="182" width="40" height="48" rx="8" fill="#334155"/>
+  <rect x="86" y="250" width="112" height="16" rx="6" fill="#FDA4AF" fill-opacity="0.45"/>
+
+  <!-- Product Grid Row -->
+  <rect x="64" y="296" width="156" height="152" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect x="84" y="310" width="116" height="76" rx="8" fill="#FFFFFF"/>
+  <rect x="124" y="322" width="36" height="52" rx="6" fill="#0F172A"/>
+  <rect x="84" y="398" width="116" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="128" y="420" width="72" height="14" rx="6" fill="#5535CF" fill-opacity="0.2"/>
+
+  <rect x="236" y="296" width="156" height="152" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect x="256" y="310" width="116" height="76" rx="8" fill="#FFFFFF"/>
+  <circle cx="314" cy="348" r="24" fill="#1E293B"/>
+  <circle cx="314" cy="348" r="14" stroke="#818CF8" stroke-width="2.5"/>
+  <rect x="256" y="398" width="116" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="300" y="420" width="72" height="14" rx="6" fill="#EF394E" fill-opacity="0.2"/>
+
+  <rect x="408" y="296" width="156" height="152" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect x="428" y="310" width="116" height="76" rx="8" fill="#FFFFFF"/>
+  <rect x="454" y="326" width="64" height="42" rx="6" fill="#334155"/>
+  <rect x="444" y="368" width="84" height="6" rx="3" fill="#94A3B8"/>
+  <rect x="428" y="398" width="116" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="472" y="420" width="72" height="14" rx="6" fill="#5535CF" fill-opacity="0.2"/>
+
+  <rect x="580" y="296" width="156" height="152" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect x="600" y="310" width="116" height="76" rx="8" fill="#FFFFFF"/>
+  <path d="M636 364C636 340 680 340 680 364" stroke="#0F172A" stroke-width="7" stroke-linecap="round"/>
+  <rect x="630" y="356" width="12" height="18" rx="5" fill="#5535CF"/>
+  <rect x="674" y="356" width="12" height="18" rx="5" fill="#5535CF"/>
+  <rect x="600" y="398" width="116" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="644" y="420" width="72" height="14" rx="6" fill="#10B981" fill-opacity="0.25"/>
+</svg>
