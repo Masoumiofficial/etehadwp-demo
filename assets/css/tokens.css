@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../fonts/Vazirmatn-Variable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Brand Palette */
+  --brand-primary: #5535CF;
+  --brand-primary-hover: #4628BA;
+  --brand-primary-light: #6E4FF0;
+  --brand-primary-tint: #F3F0FF;
+  --brand-primary-border: rgba(85, 53, 207, 0.22);
+
+  /* Complementary Neutrals & Deep Navy */
+  --navy-950: #090D1D;
+  --navy-900: #0F152B;
+  --navy-800: #18203D;
+  --navy-700: #293356;
+
+  --surface-white: #FFFFFF;
+  --surface-subtle: #F7F8FC;
+  --surface-muted: #EFF1F8;
+  --border-subtle: #E4E7F2;
+  --border-strong: #CFD5E6;
+
+  --text-primary: #0F152B;
+  --text-secondary: #4A5472;
+  --text-muted: #6C7693;
+  --text-on-dark: #F8FAFC;
+  --text-on-dark-muted: #B6C0DC;
+
+  /* Status */
+  --success: #0E9F6E;
+  --success-tint: #ECFDF5;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* Elevation */
+  --shadow-xs: 0 1px 2px rgba(15, 21, 43, 0.04);
+  --shadow-sm: 0 4px 14px rgba(15, 21, 43, 0.05);
+  --shadow-md: 0 12px 32px rgba(15, 21, 43, 0.07);
+  --shadow-lg: 0 24px 60px rgba(15, 21, 43, 0.12);
+  --shadow-brand: 0 10px 26px rgba(85, 53, 207, 0.26);
+
+  /* Layout */
+  --container-max: 1220px;
+  --header-height: 76px;
+  --font-sans: 'Vazirmatn', 'IRANSansX', 'IRANSans', Tahoma, system-ui, -apple-system, sans-serif;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 180ms;
+  --duration-base: 280ms;
+}

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>پیش‌نمایش زنده دموها | اتحاد وردپرس</title>
+  <meta name="description" content="پیش‌نمایش زنده دموهای طراحی سایت اتحاد وردپرس در حالت دسکتاپ، تبلت و موبایل." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://demo.etehadwp.com/preview/" />
+  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg" />
+
+  <link rel="preload" href="../assets/fonts/Vazirmatn-Variable.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="../assets/css/tokens.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/preview.css" />
+</head>
+<body class="preview-body">
+  <header class="preview-topbar">
+    <div class="preview-left">
+      <a class="preview-back-btn" href="../" aria-label="بازگشت به نمایشگاه دموها">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M8 5L13 10L8 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>بازگشت</span>
+      </a>
+      <label for="preview-demo-select" class="sr-only">انتخاب دمو</label>
+      <select id="preview-demo-select" class="preview-select"></select>
+    </div>
+
+    <div class="preview-center">
+      <div class="device-switcher" role="group" aria-label="نمای دستگاه">
+        <button type="button" class="device-btn is-active" data-device="desktop" aria-pressed="true">
+          <svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <rect x="2.5" y="3.5" width="15" height="10" rx="1.8" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M7 16.5H13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          <span>دسکتاپ</span>
+        </button>
+        <button type="button" class="device-btn" data-device="tablet" aria-pressed="false">
+          <svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <rect x="4" y="2.5" width="12" height="15" rx="2" stroke="currentColor" stroke-width="1.6"/>
+          </svg>
+          <span>تبلت</span>
+        </button>
+        <button type="button" class="device-btn" data-device="mobile" aria-pressed="false">
+          <svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <rect x="6" y="2.5" width="8" height="15" rx="2" stroke="currentColor" stroke-width="1.6"/>
+          </svg>
+          <span>موبایل</span>
+        </button>
+      </div>
+
+      <button type="button" id="preview-reload-btn" class="icon-tool-btn" aria-label="بارگذاری مجدد دمو" title="بارگذاری مجدد">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M16 10C16 13.3137 13.3137 16 10 16C6.68629 16 4 13.3137 4 10C4 6.68629 6.68629 4 10 4C12.0472 4 13.8548 5.02521 14.9378 6.59M15 3.5V7H11.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+      <button type="button" id="preview-info-toggle" class="icon-tool-btn" aria-label="اطلاعات و امکانات دمو" title="امکانات دمو">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M10 9V14M10 6.5V6.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="preview-right">
+      <a id="preview-direct-link" class="preview-direct-link" href="/digital/" target="_blank" rel="noopener noreferrer">
+        <svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M11 4H16M16 4V9M16 4L9 11M8 5H5C3.89543 5 3 5.89543 3 7V15C3 16.1046 3.89543 17 5 17H13C14.1046 17 15 16.1046 15 15V12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>باز کردن مستقیم</span>
+      </a>
+      <a id="preview-order-btn" class="preview-order-btn" href="https://etehadwp.com/product/digital-store-design/" target="_blank" rel="noopener noreferrer">
+        <span>سفارش طراحی مشابه</span>
+      </a>
+    </div>
+  </header>
+
+  <aside id="preview-info-drawer" class="preview-info-drawer" aria-label="جزئیات دمو">
+    <div class="preview-info-head">
+      <h2 id="preview-info-title">مشخصات دمو</h2>
+      <button type="button" id="preview-info-close" class="icon-tool-btn" aria-label="بستن جزئیات">
+        <svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M5 5L15 15M15 5L5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <p id="preview-info-desc" class="preview-info-desc"></p>
+    <ul id="preview-info-features" class="preview-info-features"></ul>
+    <div id="preview-info-stack" class="preview-stack-row"></div>
+  </aside>
+
+  <main class="preview-stage">
+    <div id="preview-frame-shell" class="preview-frame-shell device-desktop">
+      <div id="preview-loading" class="preview-loading">
+        <div class="spinner" aria-hidden="true"></div>
+        <span>در حال بارگذاری پیش‌نمایش دمو...</span>
+      </div>
+
+      <div id="preview-fallback" class="preview-fallback">
+        <img id="preview-fallback-img" class="preview-fallback-img" src="../assets/images/demos/digital.svg" alt="تصویر دمو" />
+        <h2 id="preview-fallback-title">پیش‌نمایش دمو</h2>
+        <p style="max-width: 480px; color: var(--text-secondary); margin: 0 0 18px;">
+          اگر پیش‌نمایش داخل قاب بارگذاری نشد، می‌توانید دمو را مستقیماً در پنجره جدید باز کنید.
+        </p>
+        <a id="preview-fallback-open" class="btn btn-primary" href="/digital/" target="_blank" rel="noopener noreferrer">
+          باز کردن دمو در تب جدید
+        </a>
+      </div>
+
+      <iframe
+        id="preview-iframe"
+        class="preview-iframe"
+        title="پیش‌نمایش زنده دموی اتحاد وردپرس"
+        loading="eager"
+      ></iframe>
+    </div>
+  </main>
+
+  <script src="../assets/js/demos-config.js" defer></script>
+  <script src="../assets/js/preview.js" defer></script>
+</body>
+</html>
